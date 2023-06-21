@@ -20,12 +20,16 @@ const Feed = () => {
   }, [selectedCategory]);
 
   return (
-    <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
+    <Stack
+      sx={{ flexDirection: { sx: "column", md: "row" } }}
+      height="calc(100vh - 78px)"
+      overflow="hidden"
+    >
       <Box
         sx={{
           height: {
             sx: "auto",
-            md: "92vh",
+            md: "calc(100vh - 78px)",
           },
           borderRight: "1px solid #3d3d3d",
           px: { sx: 0, md: 2 },
@@ -35,19 +39,12 @@ const Feed = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        <Typography
-          className="copyright"
-          variant="body2"
-          sx={{
-            mt: 1.5,
-            color: "#fff",
-            display: { xs: "none", md: "block" },
-          }}
-        >
-          Copyright 2023 olawalethefirst
-        </Typography>
       </Box>
-      <Box p={2} sx={{ overflow: "auto", height: "90vh", flex: 2 }}>
+
+      <Box
+        p={2}
+        sx={{ overflow: "auto", height: "calc(100vh - 78px)", flex: 2 }}
+      >
         <Typography
           variant="h4"
           fontWeight="bold"
