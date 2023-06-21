@@ -9,6 +9,7 @@ const Videos = ({ videos, justifyContent = "start" }) => {
       flexWrap="wrap"
       justifyContent={justifyContent}
       gap={"10px"}
+      marginBottom="20px"
     >
       {videos?.map((item, i) => {
         if (item.id?.videoId || item.id?.channelId)
