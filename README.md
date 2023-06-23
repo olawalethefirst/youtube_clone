@@ -8,7 +8,7 @@ Key Features:
 4. Video Recommendations: Based on the currently playing video, the application provides video recommendations. These recommendations suggest similar videos or videos from related categories, helping users discover new content that aligns with their preferences.
 5. User-Friendly Interface: offers a visually appealing and intuitive user interface that resembles the familiar layout of the original YouTube application.
 
-The application is powered by the [rapidAPI](https://rapidapi.com) endpoint, [YoutubeV3](https://rapidapi.com/ytdlfree/api/youtube-v31?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel). It uses [React Router](https://reactrouter.com/en/main) for navigation and [React Bootstrap](https://react-bootstrap.github.io/) component library for its user interface design.
+The application is powered by the [rapidAPI](https://rapidapi.com) endpoint, [YoutubeV3](https://rapidapi.com/ytdlfree/api/youtube-v31?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel). It uses [React Router](https://reactrouter.com/en/main) for navigation and [React Material UI](https://mui.com/material-ui/) component library for its user interface design.
 
 ## Images
 
